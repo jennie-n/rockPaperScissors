@@ -1,2 +1,1 @@
-# rockPaperScissors
-A rock paper scissors game played against the computer
+A rock, paper, scissors game played against the computer that implements error checking
