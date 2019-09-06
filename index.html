@@ -45,7 +45,7 @@
             function game(){
                 let i, playerSelection, computerSelection, roundScore, playerScore=0, computerScore=0, ties=0;
                 for( i=0; i<=4; i++ ){
-                    playerSelection = prompt("Rock, paper, or scissors?");
+                    playerSelection = prompt("Rock, paper, or scissors? Attempt "+ (i+1));
                     computerSelection = computerPlay();
 
                     roundScore = playRound(playerSelection, computerSelection);
@@ -72,6 +72,7 @@
                 }
             }
 
+            console.log("Let's play a game of rock, paper, scissors! Best of 5.");
             console.log( game() );
 
             /*
