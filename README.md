@@ -1,6 +1,8 @@
 A rock, paper, scissors game played against the computer that implements error checking
 
-Currently playable in browser console [here](https://jennienguyen.me/rockPaperScissors/)
+Currently playable in browser console [here](https://jennie-n.github.io/rockPaperScissors/)
+
+Inspired by The Odin Project's Web Development 101 course
 
 ## How to Play
 - Right click anywhere on webpage and click "Inspect Element"
